@@ -57,3 +57,28 @@ body {
   margin-top: 20px;
   letter-spacing: 3px;
 }
+
+@media (max-width: 720px) {
+  .relogio {
+    width: 80vw;
+    height: 13vh;
+  }
+
+  .relogio div {
+    height: 12vh;
+    width: 24vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .relogio {
+    flex-direction: column;
+    width: 30vw;
+    height: 36vh;
+  }
+
+  .relogio div {
+    height: 10vh;
+    width: 24vw;
+  }
+}
